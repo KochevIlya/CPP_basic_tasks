@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Functions.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Task10.cpp" />
+    <ClCompile Include="src\Task12.cpp" />
+    <ClCompile Include="src\Task19cpp.cpp" />
+    <ClCompile Include="src\Task4.cpp" />
+    <ClCompile Include="src\Task6.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Functions.h" />
+    <ClInclude Include="src\Tasks.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -105,6 +118,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\C++\Rep\Danik\CPP_basic_tasks;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,17 +140,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\src\Functions.h" />
-    <ClInclude Include="..\src\Tasks.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\src\Functions.cpp" />
-    <ClCompile Include="..\src\Main.cpp" />
-    <ClCompile Include="..\src\Task10.cpp" />
-    <ClCompile Include="..\src\Task4.cpp" />
-    <ClCompile Include="..\src\Task6.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
