@@ -1,7 +1,5 @@
 // Пример ввода: 
-//book apple hook bee
-//
-
+//book apple hook bee hello never ever even heaven peace book with banana
 
 
 
@@ -12,6 +10,7 @@ void add_word_to_dictionary(char* word, char** pdict)
 	char* pwordletter = word;
 	char* pdictword = *pdict;
 	pwordletter = word;
+
 	while (*pwordletter != '\0')
 	{
 		*pdictword = *pwordletter;
@@ -111,7 +110,7 @@ void sort_dictionary(char** &dictionary, const int count_word, const int SIZE)
 
 	for (int i = 0; i < count_word - 1; i++)
 	{
-		for (int j = i; j < count_word - 1; j++)
+		for (int j = 0; j < count_word - i - 1; j++)
 		{
 			if (compare_words(dictionary[j], dictionary[j + 1]))
 			{
