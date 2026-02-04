@@ -4,6 +4,9 @@
 using namespace std;
 
 
+
+
+
 double find_average(int** arr, int rows, int cols)
 {
     int sum = 0;

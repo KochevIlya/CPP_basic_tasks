@@ -1,9 +1,11 @@
 #include "Functions.h"
 #include "Tasks.h"
+
+
 using namespace std;
 
 int main()
 {
-	run_task12();
+	run_WordAlphabet();
 	return 0;
 }

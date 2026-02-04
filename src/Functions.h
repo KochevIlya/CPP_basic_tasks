@@ -21,6 +21,8 @@ void delete_array(T** arr, const int rows, const int cols) {
     delete[] arr;
 }
 
+void make_dictionary(char* str, char**& dictionary, int& count, const int SIZE);
+
 double find_average(int** arr, int rows, int cols);
 
 void fill_array(int** arr, int rows, int cols);

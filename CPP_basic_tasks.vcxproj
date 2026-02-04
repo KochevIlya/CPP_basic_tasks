@@ -26,6 +26,7 @@
     <ClCompile Include="src\Task19cpp.cpp" />
     <ClCompile Include="src\Task4.cpp" />
     <ClCompile Include="src\Task6.cpp" />
+    <ClCompile Include="src\WordAlphabet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Functions.h" />
